@@ -14,7 +14,7 @@ O projeto foi desenvolvido como atividade prática da plataforma DIO para refor�
 
 Na primeira etapa, foi acessado o painel do serviço EC2 dentro da AWS para iniciar a criação de uma nova instância.
 
-![Tela inicial da EC2](images/print1.png)
+![Tela inicial da EC2](images/1.png)
 
 ---
 
@@ -22,7 +22,7 @@ Na primeira etapa, foi acessado o painel do serviço EC2 dentro da AWS para inic
 
 Foi definido um nome para a instância e selecionada a imagem do sistema operacional Amazon Linux.
 
-![Definição da instância](images/print2.png)
+![Definição da instância](images/2.png)
 
 ---
 
@@ -32,7 +32,7 @@ Foi selecionada a instância do tipo `t2.micro`, que está disponível na camada
 
 Também não foi criado um par de chaves (Key Pair), pois não seria necessário realizar acesso SSH neste laboratório.
 
-![Tipo da instância](images/print3.png)
+![Tipo da instância](images/3.png)
 
 ---
 
@@ -40,7 +40,7 @@ Também não foi criado um par de chaves (Key Pair), pois não seria necessário
 
 Nenhum grupo de segurança adicional foi configurado e não foram habilitadas portas HTTP ou HTTPS, já que o objetivo era apenas criar a instância para fins de aprendizado.
 
-![Configurações de segurança](images/print4.png)
+![Configurações de segurança](images/4.png)
 
 ---
 
@@ -50,7 +50,15 @@ As demais configurações permaneceram no padrão da AWS.
 
 Por fim, foi marcada a opção para executar a instância e realizado o lançamento da máquina virtual.
 
-![Criação da instância](images/print5.png)
+![Criação da instância](images/5.png)
+
+---
+
+## 6. Instância em execução
+
+Após a criação, a instância foi iniciada com sucesso e ficou disponível no painel da AWS com o status de execução.
+
+![Instância rodando](images/6.png)
 
 ---
 
@@ -84,4 +92,3 @@ A prática permitiu consolidar os conhecimentos básicos sobre o Amazon EC2, pro
 # Referências
 
 * https://docs.aws.amazon.com/ec2/
-* https://github.com/
